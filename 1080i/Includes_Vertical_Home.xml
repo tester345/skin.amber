@@ -190,13 +190,7 @@
       </control>
       <control type="group">
         <posy>240</posy>
-        <control type="image">
-          <posx>21</posx>
-          <posy>12</posy>
-          <width>189</width>
-          <height>44</height>
-          <texture>img/OverlayStripe.png</texture>
-        </control>
+
         <control type="label">
           <posx>114</posx>
           <width>185</width>
@@ -235,13 +229,7 @@
       </control>
       <control type="group">
         <posy>240</posy>
-        <control type="image">
-          <posx>21</posx>
-          <posy>12</posy>
-          <width>189</width>
-          <height>44</height>
-          <texture>img/OverlayStripe.png</texture>
-        </control>
+
         <control type="label">
           <posx>114</posx>
           <width>185</width>
@@ -283,13 +271,7 @@
       </control>
       <control type="group">
         <posy>240</posy>
-        <control type="image">
-          <posx>21</posx>
-          <posy>12</posy>
-          <width>189</width>
-          <height>44</height>
-          <texture>img/OverlayStripe.png</texture>
-        </control>
+
         <control type="label">
           <posx>114</posx>
           <width>185</width>
@@ -328,13 +310,7 @@
       </control>
       <control type="group">
         <posy>240</posy>
-        <control type="image">
-          <posx>21</posx>
-          <posy>12</posy>
-          <width>189</width>
-          <height>44</height>
-          <texture>img/OverlayStripe.png</texture>
-        </control>
+
         <control type="label">
           <posx>114</posx>
           <width>185</width>
