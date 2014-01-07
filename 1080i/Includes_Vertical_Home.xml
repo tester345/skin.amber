@@ -27,7 +27,7 @@
   <include name="RecentlyAdded_Label">
     <animation effect="slide" start="0,0" end="0,-162" time="0" condition="!Skin.HasSetting(plexbmc) + [Control.IsVisible(312) | Control.IsVisible(413) | Control.IsVisible(513) | Control.IsVisible(515)]">Conditional</animation>
 	<animation effect="slide" start="0,0" end="0,-162" time="0" condition="Skin.HasSetting(plexbmc) + [IntegerGreaterThan(Container(312).NumItems,0) | IntegerGreaterThan(Container(413).NumItems,0)]">Conditional</animation>
-    <posx>558</posx>
+    <posx>358</posx>
     <posy>339</posy>
     <height>45</height>
     <width>1080</width>
@@ -38,7 +38,7 @@
   <include name="Recommended_Label">
     <animation effect="slide" start="0,0" end="0,522" time="0" condition="!Skin.HasSetting(plexbmc) + [Control.IsVisible(311) | Control.IsVisible(411) | Control.IsVisible(511) | Control.IsVisible(514)]">Conditional</animation>
 	<animation effect="slide" start="0,0" end="0,522" time="0" condition="Skin.HasSetting(plexbmc) + [IntegerGreaterThan(Container(311).NumItems,0) | IntegerGreaterThan(Container(411).NumItems,0) | IntegerGreaterThan(Container(511).NumItems,0) | IntegerGreaterThan(Container(900).NumItems,0)]">Conditional</animation>
-    <posx>558</posx>
+    <posx>358</posx>
     <posy>339</posy>
     <height>45</height>
     <width>1080</width>
@@ -50,9 +50,9 @@
     <animation effect="slide" start="0,0" end="0,-162" time="0" condition="!Skin.HasSetting(plexbmc) + [Control.IsVisible(312) | Control.IsVisible(515)]">Conditional</animation>
 	<animation effect="slide" start="0,0" end="0,-162" time="0" condition="Skin.HasSetting(plexbmc) + IntegerGreaterThan(Container(312).NumItems,0)">Conditional</animation>
     <include>VisibleFadeEffectDelayShelf</include>
-    <posx>540</posx>
+    <posx>330</posx>
     <posy>378</posy>
-    <width>1368</width>
+    <width>1588</width>
     <height>327</height>
     <onleft>300</onleft>
     <onback>300</onback>
@@ -107,9 +107,9 @@
     <animation effect="slide" start="0,0" end="0,162" time="0" condition="!Skin.HasSetting(plexbmc) + [Control.IsVisible(311) | Control.IsVisible(514)]">Conditional</animation>
 	<animation effect="slide" start="0,0" end="0,162" time="0" condition="Skin.HasSetting(plexbmc) + IntegerGreaterThan(Container(311).NumItems,0)">Conditional</animation>
     <include>VisibleFadeEffectDelayShelf</include>
-    <posx>540</posx>
+    <posx>330</posx>
     <posy>378</posy>
-    <width>1368</width>
+    <width>1588</width>
     <height>327</height>
     <onleft>300</onleft>
     <onback>300</onback>
@@ -164,9 +164,9 @@
     <animation effect="slide" start="0,0" end="0,-162" time="0" condition="!Skin.HasSetting(plexbmc) + Control.IsVisible(413)">Conditional</animation>
 	<animation effect="slide" start="0,0" end="0,-162" time="0" condition="Skin.HasSetting(plexbmc) + IntegerGreaterThan(Container(413).NumItems,0)">Conditional</animation>
     <include>VisibleFadeEffectDelayShelf</include>
-    <posx>540</posx>
+    <posx>330</posx>
     <posy>378</posy>
-    <width>1368</width>
+    <width>1588</width>
     <height>327</height>
     <onleft>300</onleft>
     <onback>300</onback>
@@ -245,9 +245,9 @@
     <animation effect="slide" start="0,0" end="0,162" time="0" condition="!Skin.HasSetting(plexbmc) + Control.IsVisible(411)">Conditional</animation>
 	<animation effect="slide" start="0,0" end="0,162" time="0" condition="Skin.HasSetting(plexbmc) + IntegerGreaterThan(Container(411).NumItems,0)">Conditional</animation>
     <include>VisibleFadeEffectDelayShelf</include>
-    <posx>540</posx>
+    <posx>330</posx>
     <posy>378</posy>
-    <width>1368</width>
+    <width>1588</width>
     <height>327</height>
     <onleft>300</onleft>
     <onback>300</onback>
@@ -325,9 +325,9 @@
   <include name="RecentlyAdded_Albums">
     <animation effect="slide" start="0,0" end="0,-162" time="0" condition="!Skin.HasSetting(plexbmc) + Control.IsVisible(513)">Conditional</animation>
     <include>VisibleFadeEffectDelayShelf</include>
-    <posx>540</posx>
+    <posx>330</posx>
     <posy>378</posy>
-    <width>1368</width>
+    <width>1588</width>
     <height>327</height>
     <onleft>300</onleft>
     <onback>300</onback>
@@ -438,9 +438,9 @@
     <animation effect="slide" start="0,0" end="0,162" time="0" condition="!Skin.HasSetting(plexbmc) + Control.IsVisible(511)">Conditional</animation>
 	<animation effect="slide" start="0,0" end="0,162" time="0" condition="Skin.HasSetting(plexbmc) + IntegerGreaterThan(Container(511).NumItems,0)">Conditional</animation>
     <include>VisibleFadeEffectDelayShelf</include>
-    <posx>540</posx>
+    <posx>330</posx>
     <posy>378</posy>
-    <width>1368</width>
+    <width>1588</width>
     <height>327</height>
     <onleft>300</onleft>
     <onback>300</onback>
@@ -549,9 +549,9 @@
   </include>
   <include name="RecentlyAdded_Addons">
     <include>VisibleFadeEffectDelayShelf</include>
-    <posx>540</posx>
+    <posx>330</posx>
     <posy>378</posy>
-    <width>1368</width>
+    <width>1588</width>
     <height>327</height>
     <onleft>300</onleft>
     <onback>300</onback>
@@ -659,17 +659,17 @@
       </control>
 	  <control type="image" description="RA BG Plexbmc only">
         <visible>Skin.HasSetting(plexbmc) + [Control.IsVisible(111) | Control.IsVisible(211) | Control.IsVisible(212) | [IntegerGreaterThan(Container(311).NumItems,0) + !IntegerGreaterThan(Container(312).NumItems,0)] | [!IntegerGreaterThan(Container(311).NumItems,0) + IntegerGreaterThan(Container(312).NumItems,0)] | [IntegerGreaterThan(Container(411).NumItems,0) + !IntegerGreaterThan(Container(413).NumItems,0)] | [!IntegerGreaterThan(Container(411).NumItems,0) + IntegerGreaterThan(Container(413).NumItems,0)] | Control.IsVisible(511) | Control.IsVisible(900) | Control.IsVisible(901)]</visible>
-        <posx>530</posx>
+        <posx>330</posx>
         <posy>345</posy>
-        <width>1390</width>
+        <width>1590</width>
         <height>390</height>
         <texture border="0,40,0,40">home/OverlayRA2T.png</texture>
       </control>
       <control type="image" description="RA BG 2 Plexbmc only">
         <visible>Skin.HasSetting(plexbmc) + [[IntegerGreaterThan(Container(311).NumItems,0) + IntegerGreaterThan(Container(312).NumItems,0)] | [IntegerGreaterThan(Container(411).NumItems,0) + IntegerGreaterThan(Container(413).NumItems,0)]]</visible>
-        <posx>530</posx>
+        <posx>330</posx>
         <posy>183</posy>
-        <width>1390</width>
+        <width>1590</width>
         <height>720</height>
         <texture border="0,40,0,40">home/OverlayRA2T.png</texture>
       </control>
@@ -712,7 +712,7 @@
 	  </control>-->
       <control type="group" description="Furniture">
         <control type="image" description="Main Left Blade">
-          <posx>0</posx>
+          <posx>-200</posx>
           <posy>0</posy>
           <width>540</width>
           <height>1080</height>
@@ -745,7 +745,7 @@
       </control>
       <control type="fixedlist" id="300" description="Main Bar">
         <animation effect="fade" time="200" start="100" end="20" reversible="true" condition="!Control.HasFocus(300)">Conditional</animation>
-        <posx>30</posx>
+        <posx>-180</posx>
         <posy>100</posy>
         <width>460</width>
         <height>880</height>
@@ -791,6 +791,7 @@
         </content>
       </control>
     </control>
+	<!--Movie Plot>
     <control type="image" description="Sub Left Blade">
       <include>VisibleFadeEffect</include>
       <animation effect="slide" start="0,0" end="389,0" time="250" delay="0" reversible="true" condition="Control.HasFocus(9001)">conditional</animation>
@@ -798,18 +799,19 @@
 	  <animation effect="fade" start="100" end="85" time="0" reversible="true" condition="Skin.HasSetting(plexbmc) + Control.HasFocus(311) + !IsEmpty(Container(311).ListItem.Property(Plot))">conditional</animation>
       <posx>-518</posx>
       <posy>0</posy>
-      <width>540</width>
+      <width>440</width>
       <height>1080</height>
       <texture border="0,0,30,0">common/ViewMenu.png</texture>
     </control>
+	<Movie Plot-->
     <control type="fixedlist" id="9001">
       <visible allowhiddenfocus="true">Control.HasFocus(9001)</visible>
       <include>VisibleFadeEffect</include>
       <animation effect="slide" start="0,0" end="450,0" time="250" delay="0" condition="Control.HasFocus(9001)">conditional</animation>
       <animation effect="fade" time="300" start="100" end="0" delay="0" reversible="true" condition="!Control.HasFocus(9001)">Conditional</animation>
       <posx>-450</posx>
-      <posy>330</posy>
-      <width>400</width>
+      <posy>300</posy>
+      <width>3	00</width>
       <height>480</height>
       <onleft>300</onleft>
       <onright>300</onright>
