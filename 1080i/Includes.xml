@@ -851,11 +851,10 @@
       <thumb fallback="special://skin/backgrounds/Favourites.jpg">$INFO[Skin.String(Favourites.Background)]</thumb>
       <onclick>ActivateWindow(Favourites)</onclick>
     </item>
-    <item id="29" description="Custom.9">
-      <visible>!IsEmpty(Skin.String(CustomHome.9.Path))</visible>
-      <label>$INFO[Skin.String(CustomHome.9.Label)]</label>
+    <item id="29" description="Sky">
+      <label>Live TV</label>
       <thumb fallback="special://skin/backgrounds/default/default.jpg">$INFO[Skin.String(CustomHome.9.Background)]</thumb>
-      <onclick>$INFO[Skin.String(CustomHome.9.Path)]</onclick>
+      <onclick>ActivateWindow(10025,&quot;tuxbox://192.168.1.6/?reference=4097%3a7%3a0%3adbe09%3a0%3a0%3a0%3a0%3a0%3a0%3a%2fvar%2ftuxbox%2fconfig%2fenigma%2fuserbouquet.dbe09.tv&quot;)</onclick>
     </item>
     <item id="8" description="DVD">
       <visible>System.HasMediaDVD + !Skin.HasSetting(DVD.Hide)</visible>
